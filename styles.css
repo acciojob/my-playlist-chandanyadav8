@@ -1,41 +1,39 @@
-/*  your css code here. If applicable */
 body{
+	background-color:rgb(204,204,204);
+}
+.main{
 	background-color:#cccccc;
 }
-h1{
-	text-align: center;
+h1, h2{
+		text-align:center;
 }
 .player_one{
-	display:flex;
-	flex-flow: column wrap;
-	padding:5px;
-	background-color: white;
-	border-radius: 3px;
+	background-color:white;
+	box-sizing:border-box;
+	margin:10px;
+	border:1px solid black;
 }
-.player_one a{
-	text-decoration: none;
-	padding: 3px;
-	margin: 3px 0;
+li a{
+	text-decoration:none;
 }
-h2{
-	text-align: center;
-}
-h3{
-	text-align: center;
-}
-h6{
-	padding: 10px;
-	margin: 0;
-}
-li{
-	list-style-type: none;
+ul{
+	list-style-type:none;
+	padding:0px;
+	margin:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .player_two{
-	width: 400px;
-	display: flex;
-	flex-flow: column wrap;
-	background-color: white;
-	padding: 10px;
-	border-radius: 4px;
-	margin: 10px auto;
+	box-sizing:border-box;
+	background-color:white;
+	justify-content:center;
+	align-item:center;
+	max-width:400px;
+	brder:1px solid black;
+}
+.video, .audio{
+	width:390px;
+	text-align:center;
+	justify-content:center;
+	align-item:center;
 }
